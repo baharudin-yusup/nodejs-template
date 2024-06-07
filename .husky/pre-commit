@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+# Run lint-staged and capture its exit code
+npm run lint-staged
+lint_status=$?
+
+# Run tests and capture its exit code
+npm run test
+test_status=$?
+
+# Exit with error if either command failed
+[ $lint_status -ne 0 ] || [ $test_status -ne 0 ] && exit 1
+
+# Otherwise, exit successfully
+exit 0

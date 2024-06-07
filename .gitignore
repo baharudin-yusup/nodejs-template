@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+dist/
+build/
+tmp/
+temp/
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+npm-error.log*
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettiercache
+
+# Jest
+coverage/
+jest-coverage/
+.jest/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Husky
+.husky/_/
+
+# dotenv
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.backup
